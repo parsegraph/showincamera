@@ -70,7 +70,6 @@
     "parsegraph-camera": "^1.4.5",
     "parsegraph-direction": "^1.7.5",
     "parsegraph-layout": "^1.7.3",
-    "parsegraph-testsuite": "^1.5.0",
     "prettier": "2.1.2",
     "raw-loader": "^4.0.1",
     "source-map-loader": "^1.0.2",
