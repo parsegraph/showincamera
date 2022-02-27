@@ -1,5 +1,5 @@
 import { assert } from "chai";
-import {showInCamera} from "../dist/parsegraph-showincamera";
+import {showInCamera} from "../src/index";
 import { Layout, Positioned, LayoutNode } from "parsegraph-layout";
 import Camera from "parsegraph-camera";
 import {DirectionNode} from 'parsegraph-direction';
