@@ -3997,10 +3997,10 @@ parse5@6.0.1:
   resolved "https://registry.yarnpkg.com/parse5/-/parse5-6.0.1.tgz#e1a1c085c569b3dc08321184f19a39cc27f7c30b"
   integrity sha512-Ofn/CTFzRGTTxwpNEs9PP93gXShHcTq255nzRYSKe8AkVpZY7e1fpmTfOyoIvjP5HG7Z2ZM7VS9PPhQGW2pOpw==
 
-parsegraph-camera@^1.4.7:
-  version "1.4.7"
-  resolved "https://registry.yarnpkg.com/parsegraph-camera/-/parsegraph-camera-1.4.7.tgz#311ca83c039f9b51bc44f1ed48d39b8aff51ff49"
-  integrity sha512-TFcnhqKuGEAxHj7oJ6dGGwzR77bDmJTOBW4qjmdOUy+rVRPgjTnYbo+VIJnD/dXF2iAr28gMeg0FbkeEZzlpMA==
+parsegraph-camera@^1.4.8:
+  version "1.4.8"
+  resolved "https://registry.yarnpkg.com/parsegraph-camera/-/parsegraph-camera-1.4.8.tgz#e64a5d93ef15dd24545833287387697eb4758fc6"
+  integrity sha512-JAYL7zTC3+ZZBpebyZpKAnn4uOQ1mZLHdXVxTnkR6kBOrjvi1GdYYq5pl4DYX9WQrm/5RTVoBGXdEBw7Y30diw==
 
 parsegraph-direction@^2.0.0:
   version "2.0.0"
