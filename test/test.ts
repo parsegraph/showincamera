@@ -1,17 +1,17 @@
 import { assert } from "chai";
-import {showInCamera} from "../src/index";
+import { showInCamera } from "../src/index";
 import { Layout, Positioned, LayoutNode } from "parsegraph-layout";
 import Camera from "parsegraph-camera";
-import {DirectionNode} from 'parsegraph-direction';
-import Size from 'parsegraph-size';
+import { DirectionNode } from "parsegraph-direction";
+import Size from "parsegraph-size";
 
 class DefaultVal implements Positioned {
-  _layout:Layout;
-  constructor(n:LayoutNode) {
+  _layout: Layout;
+  constructor(n: LayoutNode) {
     this._layout = new Layout(n);
   }
 
-  getLayout():Layout {
+  getLayout(): Layout {
     return this._layout;
   }
 
@@ -19,7 +19,7 @@ class DefaultVal implements Positioned {
     return 10;
   }
 
-  size(size?:Size):Size {
+  size(size?: Size): Size {
     if (!size) {
       size = new Size();
     }
@@ -27,12 +27,11 @@ class DefaultVal implements Positioned {
     size.setHeight(50);
     return size;
   }
-
 }
 
 describe("Package", function () {
   it("works", () => {
-    const n:LayoutNode = new DirectionNode();
+    const n: LayoutNode = new DirectionNode();
     n.setValue(new DefaultVal(n));
     const cam = new Camera();
     cam.setSize(25, 25);

@@ -1,4 +1,4 @@
-import {NATURAL_VIEWPORT_SCALE} from ".";
+import { NATURAL_VIEWPORT_SCALE } from ".";
 
 document.addEventListener("DOMContentLoaded", () => {
   const root = document.getElementById("demo");
