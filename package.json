@@ -1,6 +1,6 @@
 {
   "name": "parsegraph-showincamera",
-  "version": "1.6.5",
+  "version": "1.6.6",
   "description": "showincamera",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
