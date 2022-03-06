@@ -17,8 +17,8 @@
   "dependencies": {
     "parsegraph-camera": "^1.4.11",
     "parsegraph-direction": "^2.0.10",
-    "parsegraph-layout": "^1.7.20",
-    "parsegraph-size": "^1.5.8"
+    "parsegraph-layout": "^1.8.1",
+    "parsegraph-size": "^1.6.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.6",
