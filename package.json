@@ -15,10 +15,10 @@
   },
   "homepage": "https://github.com/parsegraph/showincamera#readme",
   "dependencies": {
-    "parsegraph-camera": "^1.4.14",
+    "parsegraph-camera": "^1.4.18",
     "parsegraph-direction": "^2.1.0",
-    "parsegraph-layout": "^1.13.3",
-    "parsegraph-size": "^1.7.0"
+    "parsegraph-layout": "^1.13.6",
+    "parsegraph-size": "^1.7.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.10",
