@@ -16,8 +16,8 @@
   "homepage": "https://github.com/parsegraph/showincamera#readme",
   "dependencies": {
     "parsegraph-camera": "^1.4.22",
-    "parsegraph-direction": "^2.2.3",
-    "parsegraph-layout": "^1.13.16",
+    "parsegraph-direction": "^2.2.4",
+    "parsegraph-layout": "^1.13.17",
     "parsegraph-size": "^1.7.4"
   },
   "devDependencies": {
