@@ -17,7 +17,7 @@
   "dependencies": {
     "parsegraph-camera": "^1.4.24",
     "parsegraph-direction": "^2.4.1",
-    "parsegraph-layout": "^1.15.2",
+    "parsegraph-layout": "^1.16.0",
     "parsegraph-size": "^1.7.5"
   },
   "devDependencies": {
