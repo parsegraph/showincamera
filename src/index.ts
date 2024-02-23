@@ -1,15 +1,14 @@
-import Direction from "parsegraph-direction";
 import Camera from "parsegraph-camera";
-import { LayoutNode } from "parsegraph-layout";
+import { Direction, DirectionNode } from "parsegraph";
 
 // The largest scale at which nodes are shown in camera.
 // export const NATURAL_VIEWPORT_SCALE = 0.5;
 export const NATURAL_VIEWPORT_SCALE = 1.0;
 
-export const showNodeInCamera = (node: LayoutNode, cam: Camera) => {
-  const layout = node.value().getLayout();
-  layout.commitLayoutIteratively();
-  const bodySize = layout.absoluteSize();
+export const showNodeInCamera = (node: DirectionNode, cam: Camera) => {
+  const layout = node.layout();
+  const bodySize = [NaN, NaN];
+  layout.absoluteSize(bodySize);
 
   // const bodyRect = new Rect(
   // layout.absoluteX(),
@@ -51,15 +50,15 @@ export const showNodeInCamera = (node: LayoutNode, cam: Camera) => {
 };
 
 export const showInCamera = (
-  node: LayoutNode,
+  node: DirectionNode,
   cam: Camera,
   onlyScaleIfNecessary: boolean
 ) => {
-  const layout = node.value().getLayout();
+  const layout = node.layout();
 
   // console.log("Showing node in camera");
-  layout.commitLayoutIteratively();
-  const bodySize = layout.extentSize();
+  const bodySize = [NaN, NaN];
+  layout.extentSize(bodySize);
   const nodeScale = layout.absoluteScale();
   const camScale = cam.scale();
   const screenWidth = cam.width();
@@ -91,7 +90,7 @@ export const showInCamera = (
   // Get node extents.
   let x: number;
   let y: number;
-  const bv: number[] = [null, null, null];
+  const bv: number[] = [NaN, NaN, NaN];
   layout.extentsAt(Direction.BACKWARD).boundingValues(bv);
   x = bv[2] * nodeScale;
   layout.extentsAt(Direction.UPWARD).boundingValues(bv);

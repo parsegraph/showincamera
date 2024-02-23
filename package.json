@@ -16,8 +16,7 @@
   "homepage": "https://github.com/parsegraph/showincamera#readme",
   "dependencies": {
     "parsegraph-camera": "^1.4.24",
-    "parsegraph-layout": "^1.16.3",
-    "parsegraph-size": "^1.7.5"
+    "parsegraph": "^6.1.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.20.7",
