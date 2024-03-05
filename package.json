@@ -1,6 +1,6 @@
 {
   "name": "parsegraph-showincamera",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "showincamera",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
@@ -16,7 +16,7 @@
   "homepage": "https://github.com/parsegraph/showincamera#readme",
   "dependencies": {
     "parsegraph-camera": "^1.4.24",
-    "parsegraph": "^6.1.6"
+    "parsegraph": "^6.1.7"
   },
   "devDependencies": {
     "@babel/cli": "^7.20.7",
